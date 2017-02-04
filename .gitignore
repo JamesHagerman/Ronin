@@ -4,3 +4,6 @@ assets/*.png
 assets/*.jpg
 assets/*.gif
 assets/*.svg
+lib/three/
+
+.idea/

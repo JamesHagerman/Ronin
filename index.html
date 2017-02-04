@@ -1,5 +1,22 @@
 <html>
   <head>
+    <title>Ronin</title>
+  </head>
+  <body>
+    <div id='ronin'>
+      <div id='cursor'></div>
+      <div id='surface'></div>
+      <div id='widget'>Loading..</div>
+      <div id ='commander'>
+        <div id='commander_hint'></div>
+        <input id='commander_input'/>
+      </div>
+    </div>
+
+    <!-- Scripts should be able to load last -->
+
+    <script type="text/javascript" src="lib/three/build/three.min.js"></script>
+
     <script type="text/javascript" src="scripts/units/unit.js"></script>
     <script type="text/javascript" src="scripts/units/rect.js"></script>
     <script type="text/javascript" src="scripts/units/color.js"></script>
@@ -11,7 +28,8 @@
     <script type="text/javascript" src="scripts/units/any.js"></script>
     <script type="text/javascript" src="scripts/units/variable.js"></script>
     <script type="text/javascript" src="scripts/units/range.js"></script>
-    
+
+    <script type="text/javascript" src="scripts/modules/vr.js"></script>
     <script type="text/javascript" src="scripts/modules/cursor.js"></script>
     <script type="text/javascript" src="scripts/modules/module.js"></script>
     <script type="text/javascript" src="scripts/modules/stroke.js"></script>
@@ -29,7 +47,7 @@
     <script type="text/javascript" src="scripts/modules/eye.js"></script>
     <script type="text/javascript" src="scripts/modules/typographe.js"></script>
     <script type="text/javascript" src="scripts/modules/render.js"></script>
-    
+
     <script type="text/javascript" src="scripts/filters/filter.js"></script>
     <script type="text/javascript" src="scripts/filters/stencil.js"></script>
     <script type="text/javascript" src="scripts/filters/rotate.js"></script>
@@ -44,22 +62,11 @@
     <script type="text/javascript" src="scripts/core/commander.hint.js"></script>
     <script type="text/javascript" src="scripts/core/ronin.js"></script>
     <script type="text/javascript" src="scripts/core/widget.js"></script>
-    
+
     <link rel="stylesheet" type="text/css" href="links/reset.css"/>
     <link rel="stylesheet" type="text/css" href="links/fonts.css"/>
     <link rel="stylesheet" type="text/css" href="links/main.css"/>
-    <title>Ronin</title>
-  </head>
-  <body>
-    <div id='ronin'>
-      <div id='cursor'></div>
-      <div id='surface'></div>
-      <div id='widget'>Loading..</div>
-      <div id ='commander'>
-        <div id='commander_hint'></div>
-        <input id='commander_input'/>
-      </div>
-    </div>
+
     <script type="text/javascript" src="scripts/core/init.js"></script>
   </body>
 </html>
